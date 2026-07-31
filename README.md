@@ -1,10 +1,11 @@
 # 🧰 Navaja Suiza Manzano - Suite Universal de Mantenimiento y Diagnóstico
 ### Universal Equipment Diagnostic and Management Suite / 多功能设备诊断与管理套件 / Универсальный комплект диагностики
 
-![Windows](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Language](https://img.shields.io/badge/Language-Batch%20%7C%20PowerShell-4EAA25?style=for-the-badge)
-![Multilanguage](https://img.shields.io/badge/Languages-10%20Supported-FF6F00?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+[![Windows](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](../../releases)
+[![Language](https://img.shields.io/badge/Language-Batch%20%7C%20PowerShell-4EAA25?style=for-the-badge)](../../releases)
+[![Multilanguage](https://img.shields.io/badge/Languages-10%20Supported-FF6F00?style=for-the-badge)](../../releases)
+[![Release](https://img.shields.io/badge/Download-v0.01%20Release-blueviolet?style=for-the-badge&logo=github)](../../releases)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](../../releases)
 
 [ 🇪🇸 Español ] | [ 🇬🇧 English ] | [ 🇫🇷 Français ] | [ 🇩🇪 Deutsch ] | [ 🇷🇺 Русский ] | [ 🇨🇳 中文 ] | [ 🇯🇵 日本語 ] | [ 🇸🇦 العربية ]
 
