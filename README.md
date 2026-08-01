@@ -1,32 +1,25 @@
-# 🛠️ Navaja Suiza Manzano
+# 🛠️ Navaja Suiza Manzano - v0.02
 
-**Suite de mantenimiento, optimización y herramientas avanzadas de diagnóstico para Windows.**  
-Desarrollado para ofrecer máxima velocidad, portabilidad y compatibilidad total con entornos de instalación y recuperación de Windows (`Shift + F10`).
+**Suite Universal de Mantenimiento, Optimización y Diagnóstico para Windows.**  
+Desarrollado por **Manuel Manzano (Pepinamix)** para ofrecer máxima velocidad, portabilidad y ejecución directa tanto en entornos Windows como en consolas de recuperación (`Shift + F10`).
 
 ---
 
-## 🚀 Novedades de la Última Versión (`v0.02`)
+## 🚀 Novedades de la Versión 0.02 (Release v0.02)
 
-### 📦 Highlights de la Release v0.02:
-* **🎨 Nueva Interfaz Gráfica (GUI Native PowerShell):** Transición a un entorno visual en modo oscuro estilizado sin perder soporte de consola.
-* **🛡️ Lanzador Automático (`Lanzador.bat`):** Implementación de bypass transparente de la política de ejecución (`-ExecutionPolicy Bypass`), permitiendo abrir la suite con un doble clic en cualquier sistema.
-* **⚡ Mantenimiento de Compatibilidad Offline:** Preserva la capacidad de ser desplegado en consolas de recuperación de Windows (`Shift + F10`).
-* **🌍 Arquitectura Multidioma:** Preparado para soporte nativo en 10 idiomas.
+* **🎨 Nueva Interfaz Gráfica (GUI Native PowerShell):** Entorno visual en modo oscuro estilizado desarrollado sobre Windows Forms nativo.
+* **🛡️ Lanzador Automático (`Lanzador.bat`):** Ejecución transparente con `-ExecutionPolicy Bypass` para permitir el inicio directo con doble clic sin bloqueos de PowerShell.
+* **⚡ Compatibilidad Total Offline:** Diseñado para funcionar de manera ligera y sin dependencias en entornos de reparación/instalación de Windows.
+* **🌍 Núcleo Multidioma:** Preparada la estructura interna para dar soporte nativo a 10 idiomas.
 
 ---
 
 ## 💻 Instalación y Uso
 
-### Método 1: Ejecución Directa (Recomendado)
-1. Descarga la última versión o clona el repositorio.
-2. Haz doble clic en el archivo **`Lanzador.bat`**.
-3. La interfaz gráfica se abrirá automáticamente ignorando cualquier restricción de política de scripts de Windows.
+1. Descarga la versión desde el repositorio.
+2. Haz doble clic sobre **`Lanzador.bat`**.
+3. La interfaz gráfica se abrirá automáticamente en pantalla.
 
-### Método 2: Solución de problemas de PowerShell (Ejecución Manual)
-Si prefieres ejecutar directamente el archivo `NavajaSuiza.ps1` desde la consola y Windows bloquea el script con un mensaje en rojo, ejecuta este comando en PowerShell una sola vez:
-
-```powershell
-Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ---
 
 ## 🛡️ Falsos Positivos y Seguridad / False Positives & Security
@@ -142,3 +135,19 @@ Como o arquivo `Lanzador.bat` utiliza a instrução `-ExecutionPolicy Bypass` pa
 </details>
 
 ---
+
+## 📋 Historial de Cambios (Changelog)
+
+### Version 0.02
+* Implementación de interfaz gráfica visual con PowerShell Windows Forms (`NavajaSuiza.ps1`).
+* Creación de `Lanzador.bat` para omitir políticas de ejecución de scripts de Windows.
+* Documentación multidioma con explicación de seguridad y falsos positivos.
+
+### Version 0.01
+* Versión inicial en consola de comandos (CLI).
+
+---
+
+## 👤 Autor
+
+* **Manuel Manzano** ([Pepinamix](https://github.com/Pepinamix))
